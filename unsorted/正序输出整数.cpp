@@ -13,7 +13,7 @@ int main(void)
 		w++;
 		r_inp /= 10;
 	} 
-	w = pow(10, w); printf("%lld\n", w);
+	w = pow(10, w); //printf("%lld\n", w);
 
 	do 
 	{
