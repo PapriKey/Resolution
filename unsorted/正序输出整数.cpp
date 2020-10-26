@@ -6,7 +6,7 @@ int main(void)
 {
 	long long int r_inp=0, i=1,w=0,inp=0,res=0;
 
-	scanf_s("%lld", &r_inp);
+	scanf("%lld", &r_inp);
 	inp = r_inp;
 	while (r_inp > 9)
 	{
