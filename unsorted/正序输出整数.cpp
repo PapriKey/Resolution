@@ -1,4 +1,28 @@
 /* 正序输出整数 */
+/*
+求数字位数函数：
+
+#include<math.h>
+long long int Line()
+	{
+	long long int r_inp = 0, w = 0, inp = 0;
+		scanf("%lld", &r_inp);
+		inp = r_inp;
+		while (r_inp > 9)
+		{
+			w++;
+			r_inp /= 10;
+		}
+		w = pow(10, w);
+		return w;
+	}
+	
+	
+*/
+
+
+
+
 #include<stdio.h>
 #include <math.h>
 
@@ -13,7 +37,7 @@ int main(void)
 		w++;
 		r_inp /= 10;
 	} 
-	w = pow(10, w); //printf("%lld\n", w);
+	w = pow(10, w); 
 
 	do 
 	{
