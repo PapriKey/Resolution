@@ -38,7 +38,7 @@ int main(void)
     for (;;)
     {
         i = 0;
-        printf("输入任意1~10位数字，他们将以七位显示器效果输出：");
+        printf("输入任意1~9位数字，他们将以七位显示器效果输出：");
         scanf("%lld", &r_inp);
 
         if (r_inp < 0)
