@@ -1,5 +1,6 @@
 /* 正序输出整数 */
 /*
+1.
 求数字位数函数：
 
 #include<math.h>
@@ -19,7 +20,24 @@ long long int Line()
 	
 	
 	
-long long int
+2.
+#include<stdio.h>
+#include<math.h>
+
+long int Line()
+{
+	long int a,cnt=0,w;
+
+	scanf("%ld", &a);
+	while (a > 0)
+	{
+		a /= 10;
+		cnt++;
+	}
+	cnt -= 1;
+	w = pow(10, cnt);
+	return w;
+}
 	
 */
 
