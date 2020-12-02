@@ -17,3 +17,24 @@ int cnt(int num[],int len)
 		return num[len-1]+cnt(num,len-1);
 	}
 }
+
+
+
+
+#include<stdio.h>
+
+int sum(int n);
+
+int main(void)
+{
+    int n;
+    scanf("%d", &n);
+    printf("%d", sum(n));
+    return 0;
+}
+
+int sum(int n)
+{
+    if (n == 1)return 1;
+    return n+sum(n - 1);
+}
